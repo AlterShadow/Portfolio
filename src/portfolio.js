@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Thomas Ken Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "/",
   },
 };
 
@@ -90,23 +90,23 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Solidity",
+          fontAwesomeClassname: "logos-solidity",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Rust",
+          fontAwesomeClassname: "simple-icons:rust",
           style: {
             backgroundColor: "white",
             color: "#D00000",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Go",
+          fontAwesomeClassname: "logos-go",
           style: {
             backgroundColor: "transparent",
           },
@@ -120,7 +120,7 @@ const skills = {
           },
         },
         {
-          skillName: "Deeplearning",
+          skillName: "",
           imageSrc: "deeplearning_ai_logo.png",
         },
       ],
@@ -129,8 +129,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
+        "⚡ Building complex, interactive user interfaces using React, Next.js, Vue, AngularJs",
         "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "⚡ Good collaborating with designers and backend developers to integrate front-end interfaces with backend systems and APIs",
         "⚡ Creating application backend in Node, Express & Flask",
       ],
       softwareSkills: [
@@ -171,6 +172,13 @@ const skills = {
           },
         },
         {
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
           skillName: "NodeJS",
           fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
           style: {
@@ -203,6 +211,41 @@ const skills = {
           fontAwesomeClassname: "simple-icons:flutter",
           style: {
             color: "#02569B",
+          },
+        },
+        {
+          skillName: "Express",
+          fontAwesomeClassname: "simple-icons:express",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Rust",
+          fontAwesomeClassname: "simple-icons:rust",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Go",
+          fontAwesomeClassname: "simple-icons:go",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "Svelte",
+          fontAwesomeClassname: "simple-icons:svelte",
+          style: {
+            color: "#E34F26",
           },
         },
       ],
@@ -720,14 +763,14 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "611 Gilmour St, Ottawa, ON, Canada K1R 5L7",
+    locality: "Ottawa",
+    country: "Canada",
+    region: "Ontario",
+    postalCode: "K1R5L7",
+    streetAddress: "611 Gilmour Street",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/8azY4XHLKajxTq6Z9",
   },
   phoneSection: {
     title: "",
